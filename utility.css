@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+.border {
+    background-color: hsl(0deg 0% 9.41%);
+    border-radius: 8px;
+    padding-right: 21px;
+    padding-left: 19px;
+    padding-top: 19px;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.bg-black {
+    background-color: black;
+    color: white;
+}
+
+/* Ye property kuch new hai, and has been used to color the svgs white🎋 */
+.invert {
+    filter: invert(1);
+}
+
+.bg-gray {
+    background-color: #121212;
+}
+
+.rounded {
+    border-radius: 9px;
+}
+
+.p-1 {
+    padding: 10px;
+}
+
+/* Width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #333; /* Dark background color */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(93, 92, 92); /* Lighter color for the scrollbar thumb */
+    border-radius: 5px; /* Rounder edges */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(173, 173, 173); /* Darker color on hover */
+}
+
